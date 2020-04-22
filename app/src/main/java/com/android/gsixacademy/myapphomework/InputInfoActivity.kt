@@ -8,5 +8,10 @@ class InputInfoActivity:AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_input_info)
 
+
+
+
+
+
     }
 }
