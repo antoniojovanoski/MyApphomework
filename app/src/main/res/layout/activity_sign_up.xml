@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6666ff">
+    <EditText
+        android:id="@+id/edit_text_your_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:hint="Your Login"
+        android:background="#3366ffff"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/edit_text_your_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_your_login"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Your Password"
+        android:background="#3366ffff"
+        android:layout_marginTop="16dp"
+        android:textSize="20dp"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/edit_text_email_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edit_text_your_login"
+        android:hint="Email Address"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="#3366ffff"
+        android:textSize="20dp"
+        android:layout_marginBottom="16dp"
+        />
+    <EditText
+        android:id="@+id/edit_text_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edit_text_email_address"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:hint="First Name"
+        android:background="#3366ffff"
+        android:textSize="20dp"
+        android:layout_marginBottom="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_above="@+id/edit_text_first_name"
+        android:layout_centerInParent="true"
+        android:textSize="40dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/button_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_your_password"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        android:background="#66ffff" />
+    <TextView
+        android:id="@+id/text_view_sub_to_newsletter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_sign_up"
+        android:text="Subscribe to newsletter"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="16dp"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textColor="#fff"
+        android:layout_below="@+id/button_sign_up"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+
+    
+
+
+
+
+</RelativeLayout>
